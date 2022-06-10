@@ -1,9 +1,9 @@
 @charset "utf-8";
 
 /* 폰트 */
-@import url(http://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
 
-body{ font-family: 'Spoqa Han Sans', '맑은 고딕', 'Malgun Gothic', 'Sans-serif'; font-size: 16px; letter-spacing: -0.6px; line-height: 1; color: #1a1a1a;}
+body{ font-family: 'Spoqa Han Sans Neo', '맑은 고딕', 'Malgun Gothic', 'Sans-serif'; font-size: 16px; letter-spacing: -0.6px; line-height: 1; color: #1a1a1a;}
 
 /* 초기화 */
 body,div,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,p,form,fieldset,table,tr,th,td{margin:0; padding:0}
@@ -13,7 +13,7 @@ strong{ font-weight: normal;}
 em,address{ font-style: normal;}
 fieldset{ border:none;}
 legend{ position:absolute; top:-9999px; left:-9999px;}
-input[type='text']{ font-family: 'Spoqa Han Sans', '맑은 고딕', 'Malgun Gothic', 'Sans-serif'; letter-spacing: -0.6px; border: none; padding: 0;}
+input[type='text']{ font-family: 'Spoqa Han Sans Neo', '맑은 고딕', 'Malgun Gothic', 'Sans-serif'; letter-spacing: -0.6px; border: none; padding: 0;}
 button{ background-color: transparent; border: none; margin: 0; padding: 0; cursor: pointer; outline: none;}
 a{text-decoration:none; color:#1a1a1a;}
 
