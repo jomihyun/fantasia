@@ -114,7 +114,7 @@
 
 
 /* 어트랙션 */
-#section-attraction .attraction .swiper-slide .box-wrap{ width: 380px; height: 480px; position: relative; transition: all 0.2s; cursor: pointer;}
+#section-attraction .attraction .swiper-slide .box-wrap{ width: 100%; height: 480px; position: relative; transition: all 0.2s; cursor: pointer;}
 
 #section-attraction #panel-01 .swiper-slide .box-wrap .img-box{ width: 100%; height: 100%; position: relative; overflow: hidden; box-sizing: border-box; background: url(../images/attraction_01.jpg) no-repeat center center; background-size: 100% auto; transition: background-size 0.3s;}
 #section-attraction #panel-01 .slide-02 .box-wrap .img-box{ background-image: url(../images/attraction_02.jpg);}
@@ -129,7 +129,7 @@
 #section-attraction #panel-03 .slide-03 .box-wrap .img-box{ background-image: url(../images/attraction_03.jpg);}
 #section-attraction .attraction .swiper-slide .box-wrap:hover .img-box{ background-size: 110% auto;}
 
-#section-attraction .attraction .swiper-slide .box-wrap .dim-box{ width: 380px; height: 480px; background: url(../images/dim_bg.png) no-repeat left bottom; position: absolute; left: 0; top: 0; opacity: 0; transition: opacity 0.3s;}
+#section-attraction .attraction .swiper-slide .box-wrap .dim-box{ width: 100%; height: 480px; background: url(../images/dim_bg.png) no-repeat left bottom; position: absolute; left: 0; top: 0; opacity: 0; transition: opacity 0.3s;}
 #section-attraction .attraction .swiper-slide .box-wrap:hover .dim-box{ opacity: 1;}
 
 #section-attraction .attraction .swiper-slide .box-wrap .txt-box{ position: absolute; left: 35px; bottom: 98px; padding-top: 308px; color: #fff;  box-sizing: border-box;}
