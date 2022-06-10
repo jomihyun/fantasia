@@ -12,7 +12,7 @@ $(function(){
             prevEl: '.swiper-button-prev',
         },
         autoplay: {
-            delay: 2500,
+            delay: 3500,
             disableOnInteraction: false,
         }
     });
@@ -64,7 +64,8 @@ $(function(){
             pagination: {
                 el: '.swiper-pagination',
                 clickable: true
-            }
+            },
+            watchOverflow: true
         });
     });
     
